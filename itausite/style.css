@@ -3,6 +3,7 @@
 
 :root {
     --corprincipal: #ff6200;
+    --fonteprincipal: "Poppins", sans-serif;
 }
 
 .nav {
@@ -61,6 +62,7 @@
 }
 
 .abraconta a:hover {
+    transition-duration: 0.5s;
     background-color: white;
     color: var(--corprincipal);
 }
@@ -75,8 +77,8 @@
 
 .ingressositau {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 37%;
+    left: 30%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
@@ -84,6 +86,55 @@
     z-index: 1;
 }
 
+.ingressositau p {
+    padding-bottom: 30px;
+}
+
+.ingressositau a {
+    margin-bottom: 40px;
+    max-width: 160px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 22px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.308);
+    color: white;
+}
+
+.ingressositau a:hover {
+    transition-duration: 0.4s;
+    background-color: rgba(82, 83, 82, 0.74);
+    color: var(--corprincipal);
+}
+
+.conteudo h1 {
+    font-size: 30px;
+    margin-left: 300px;
+    margin-bottom: 70px;
+    font-family: var(--fonteprincipal);
+}
+
+#boleto {
+    margin-left: 300px;
+}
+
+.questoes a {
+    margin-left: 30px;
+    border: 1px solid black;   
+    text-decoration: none;
+    color: black;
+    padding: 40px;
+    border-radius: 10px;
+    font-family: var(--fonteprincipal);
+}
+
+.questoes a:hover {
+    transition-duration: 0.4s;
+    border: 1px solid var(--corprincipal); 
+    color: var(--corprincipal);
+}
 
 body {
     margin: 0px;
