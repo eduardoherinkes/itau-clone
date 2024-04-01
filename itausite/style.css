@@ -139,3 +139,23 @@
 body {
     margin: 0px;
 }
+
+.edu {
+    background-color: var(--corprincipal);
+    text-align: center;
+    margin-top: 93px;
+    padding: 12px;
+    font-family: var(--fonteprincipal);
+    color: white;
+}
+
+.edu a {
+    text-decoration: none;
+    color: white;
+}
+
+.edu a:hover {
+    transition-duration: 0.4s;
+    color: rgb(255, 217, 0);
+
+}
